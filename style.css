@@ -1,0 +1,206 @@
+body {
+    background-image: url("./library.jpg");
+    font-family: verdana;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+#bookForm{
+    margin: 15px; 
+    padding: 15px; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+     border-radius: 15px;
+                      
+
+}
+
+.upper-btn-box {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 30px;
+}
+
+.upper-btn-box .left-box {
+    width: 50%;
+    height: 100%;
+}
+
+.upper-btn-box .left-box button,
+.upper-btn-box .right-box button {
+    border: none;
+    outline: none;
+    background-color: #4286f5;
+    padding: 13px;
+    font-size: 18px;
+    font-family: Verdana;
+    color: #fff;
+    margin: 0px 10px;
+}
+
+.upper-btn-box .right-box {
+    width: 50%;
+    height: 100%;
+    /*background-color: green;*/
+}
+
+.upper-btn-box .right-box input {
+    width: 70%;
+    padding: 13px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #4286f5;
+    font-size: 16px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(37, 33, 33, 0.4);
+}
+
+.button {
+    margin: 25px;
+    padding: 30px;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.modal-content {
+    width: 50%px;
+    height: 50%px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid #4CAF50;
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    text-align: center;
+    font-family: verdana;
+}
+
+button {
+    background-color: rgb(51, 129, 153);
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 5px 5px 10px rgba(1, 31, 8, 0.3);
+    border-radius: 10px;
+}
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Pagination styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+}
+
+.table1{
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+
+
+}
+
+.table1 td{
+    padding: 14px;
+    text-align: center ;
+   
+    color: white;
+}
+
+.table1 label{
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.table1 input{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 70%;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+
+}
+
+.table1 tr:nth-child(odd) {
+    background-color: #3c2ff5da;
+}
+
+.table1 tr:nth-child(even) {
+    background-color: rgba(27, 160, 248, 0.863);    
+}
+
+#bookForm button {
+    background-color: #1063e9;
+    color: white;
+    border: none;
+    padding:10px 12px;
+}
+
+#bookForm button:hover{
+    background-color: #1100ff;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+
+
+}

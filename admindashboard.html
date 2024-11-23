@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="./dashboard.css">
+</head>
+<body>
+    <form>
+    <h1>Admin Dashboard</h1>
+    <p>Welcome, <span id="admin-username"></span>!</p>
+    <ul>
+        
+        <li><a href="./admin.html" id="book-management-link">Book Management</a></li>
+        <li><a href="./landing.page.html" id="lending-management-link">Lending Management</a></li>
+        <li><a href="Reports.html" id="report-link">Reports</a></li>
+        
+    </ul>
+
+    <div id="member-management" style="display:none;">
+        <h2>Member Management</h2>
+        <ul id="member-list"></ul>
+    </div>
+
+    <div id="book-management" style="display:none;">
+        <h2>Book Management</h2>
+        <form id="book-form">
+            <input type="text" id="book-title" placeholder="Book Title" required>
+            <input type="text" id="book-author" placeholder="Author" required>
+            <button type="submit">Add Book</button>
+        </form>
+        <ul id="book-list"></ul>
+    </div>
+
+    <div id="lending-management" style="display:none;">
+        <h2>Lending Management</h2>
+        <ul id="lending-list"></ul>
+    </div>
+
+    <div id="report" style="display:none;">
+        <h2>Reports</h2>
+        <ul id="report-list"></ul>
+    </div>
+</form>
+
+    <script src="admindashboard.js"></script>
+</body>
+</html>
